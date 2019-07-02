@@ -1,0 +1,10 @@
+.azad-preloader{
+    list-style: none;
+}
+.preloader-item{
+    display: inline-block;
+    text-align: center;
+}
+.preloader-item label{
+    display: block;
+}
