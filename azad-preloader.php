@@ -46,8 +46,8 @@ class Azad_Preloader{
         wp_enqueue_script('azad_preloader_script');
     }
     public function includes(){
-        define('ADMIN',plugin_dir_path(__FILE__));
-        require_once(ADMIN.'azad-preloader-settings.php');
+        define('PRELOADER_ADMIN',plugin_dir_path(__FILE__));
+        require_once(PRELOADER_ADMIN.'azad-preloader-settings.php');
     }
     public function admin(){
         if(is_admin()){
